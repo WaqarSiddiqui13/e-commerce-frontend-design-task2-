@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Brand</title>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        
+            <div class="header-main">
+               <a class="home" href="Home.html" ><div class="logo">
+                     <img src="assets/Layout/Brand/logo-colored.png" alt="Logo">
+                </div></a> 
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <select>
+                        <option>All category</option>
+                    </select>
+                    <button class="search-btn">Search</button>
+                </div>
+                
+                <div class="header-icons">
+                    <div class="icon-item">
+                        <i class="fas fa-user"></i>
+                        <span>Profile</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Message</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>Orders</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>My cart</span>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="container main-content">
+        <div class="cart-section">
+            <!-- Cart Header -->
+            <h1 class="cart-title">My cart (3)</h1>
+
+            <!-- Cart Items -->
+            <div class="cart-items">
+                <!-- Item 1 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <div class="tshirt-preview tshirt-blue"><img src="assets/Layout/alibaba/Image/cloth/Bitmap.png"></div>
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button class="remove-btn">Remove</button>
+                            <button class="save-btn">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price">$78.99</div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select class="qty-select">
+                            <option value="9" selected>9</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <div class="tshirt-preview tshirt-dark-blue"><img src="assets/Layout/alibaba/Image/cloth/image 26.png"></div>
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Best factory LLC</p>
+                        <div class="item-actions">
+                            <button class="remove-btn">Remove</button>
+                            <button class="save-btn">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price">$39.00</div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select class="qty-select">
+                            <option value="3" selected>3</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <div class="tshirt-preview tshirt-beige"><img src="assets/Image/interior/6.png"></div>
+                    </div>
+                    <div class="item-details">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                        <p class="seller">Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button class="remove-btn">Remove</button>
+                            <button class="save-btn">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="item-price">$170.50</div>
+                    <div class="item-quantity">
+                        <label>Qty:</label>
+                        <select class="qty-select">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="cart-navigation">
+               <a class="home" href="Home.html"><button class="back-to-shop">← Back to shop</button></a> 
+                <button class="remove-all">Remove all</button>
+            </div>
+
+            <!-- Features -->
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <div>
+                        <h4>Secure payment</h4>
+                        <p>Have you ever finally just</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💬</div>
+                    <div>
+                        <h4>Customer support</h4>
+                        <p>Have you ever finally just</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚚</div>
+                    <div>
+                        <h4>Free delivery</h4>
+                        <p>Have you ever finally just</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Coupon Section -->
+            <div class="coupon-section">
+                <h3>Have a coupon?</h3>
+                <div class="coupon-input">
+                    <input type="text" placeholder="Add coupon">
+                    <button class="apply-btn">Apply</button>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="order-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span>$1403.97</span>
+                </div>
+                <div class="summary-row discount">
+                    <span>Discount:</span>
+                    <span>- $60.00</span>
+                </div>
+                <div class="summary-row tax">
+                    <span>Tax:</span>
+                    <span>+ $14.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span>$1357.97</span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+                <div class="payment-methods">
+                    <img src="assets/payment.png" alt="Visa">
+                    <img src="assets/payment1.png" alt="Mastercard">
+                    <img src="assets/payment2.png" alt="PayPal">
+                    <img src="assets/payment4.png" alt="Visa">
+                    <img src="assets/payment2.png" alt="Apple Pay">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Saved for Later Section -->
+    <div class="container">
+        <div class="saved-section">
+            <h2>Saved for later</h2>
+            <div class="saved-items">
+                <div class="saved-item">
+                    <div class="saved-item-image tablet"><img src="assets/Image/tech/image 32.png"></div>
+                    <div class="saved-item-details">
+                        <div class="saved-item-price">$99.50</div>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">🛒 Move to cart</button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-image phone"><img src="assets/Image/tech/4.png"></div>
+                    <div class="saved-item-details">
+                        <div class="saved-item-price">$99.50</div>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">🛒 Move to cart</button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-image watch"><img src="assets/Image/tech/8.png"></div>
+                    <div class="saved-item-details">
+                        <div class="saved-item-price">$99.50</div>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">🛒 Move to cart</button>
+                    </div>
+                </div>
+                <div class="saved-item">
+                    <div class="saved-item-image laptop"><img src="assets/Image/tech/image 34.png"></div>
+                    <div class="saved-item-details">
+                        <div class="saved-item-price">$99.50</div>
+                        <h4>GoPro HERO6 4K Action Camera - Black</h4>
+                        <button class="move-to-cart">🛒 Move to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discount Banner -->
+    <div class="discount-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Super discount on more than 100 USD</h2>
+                <p>Have you ever finally just write dummy info</p>
+                <button class="shop-now-btn">Shop now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/Layout/Brand/logo-colored.png">
+                    </div>
+                    <p>Best information about the company gies here but now lorem ipsum is</p>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Partnership</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Money Refund</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>For users</h4>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">My Orders</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Get app</h4>
+                    <div class="app-badges">
+                        <img src="assets/Layout/Misc/market-button.png" alt="App Store">
+                        <img src="assets/Layout/Misc/Group.png" alt="Google Play">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2023 Ecommerce.</p>
+                <div class="footer-bottom-right">
+                    <img src="assets/Layout1/Image/flags/US@2x.png"> English <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>// Cart functionality
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Initialize cart data
+    let cartItems = [
+        {
+            id: 1,
+            name: "T-shirts with multiple colors, for men and lady",
+            price: 78.99,
+            quantity: 9,
+            seller: "Artel Market",
+            specs: "Size: medium, Color: blue, Material: Plastic",
+            color: "blue"
+        },
+        {
+            id: 2,
+            name: "T-shirts with multiple colors, for men and lady",
+            price: 39.00,
+            quantity: 3,
+            seller: "Best factory LLC",
+            specs: "Size: medium, Color: blue, Material: Plastic",
+            color: "dark-blue"
+        },
+        {
+            id: 3,
+            name: "T-shirts with multiple colors, for men and lady",
+            price: 170.50,
+            quantity: 1,
+            seller: "Artel Market",
+            specs: "Size: medium, Color: blue, Material: Plastic",
+            color: "beige"
+        }
+    ];
+
+    // Quantity change handlers
+    const qtySelects = document.querySelectorAll('.qty-select');
+    qtySelects.forEach((select, index) => {
+        select.addEventListener('change', function() {
+            const newQuantity = parseInt(this.value);
+            cartItems[index].quantity = newQuantity;
+            updateCartTotals();
+            updateCartTitle();
+        });
+    });
+
+    // Remove item handlers
+    const removeButtons = document.querySelectorAll('.remove-btn');
+    removeButtons.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            removeCartItem(index);
+        });
+    });
+
+    // Save for later handlers
+    const saveButtons = document.querySelectorAll('.save-btn');
+    saveButtons.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            saveForLater(index);
+        });
+    });
+
+    // Remove all button
+    const removeAllBtn = document.querySelector('.remove-all');
+    removeAllBtn.addEventListener('click', function() {
+        if(confirm('Are you sure you want to remove all items from your cart?')) {
+            cartItems = [];
+            updateCartDisplay();
+            updateCartTotals();
+            updateCartTitle();
+        }
+    });
+
+    // Apply coupon
+    const applyBtn = document.querySelector('.apply-btn');
+    const couponInput = document.querySelector('.coupon-input input');
+    
+    applyBtn.addEventListener('click', function() {
+        const couponCode = couponInput.value.trim();
+        if(couponCode) {
+            applyCoupon(couponCode);
+        }
+    });
+
+    // Checkout button
+    const checkoutBtn = document.querySelector('.checkout-btn');
+    checkoutBtn.addEventListener('click', function() {
+        if(cartItems.length === 0) {
+            alert('Your cart is empty!');
+            return;
+        }
+        
+        // Simulate checkout process
+        const total = calculateTotal();
+        alert(`Proceeding to checkout with total: $${total.toFixed(2)}`);
+    });
+
+    // Move to cart buttons for saved items
+    const moveToCartBtns = document.querySelectorAll('.move-to-cart');
+    moveToCartBtns.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            moveItemToCart(index);
+        });
+    });
+
+    // Back to shop button
+    const backToShopBtn = document.querySelector('.back-to-shop');
+    backToShopBtn.addEventListener('click', function() {
+        // Redirect to shop page
+        alert('Redirecting to shop...');
+        // window.location.href = '/shop';
+    });
+
+    // Shop now button
+    const shopNowBtn = document.querySelector('.shop-now-btn');
+    shopNowBtn.addEventListener('click', function() {
+        alert('Redirecting to special offers...');
+        // window.location.href = '/offers';
+    });
+
+    // Functions
+    function removeCartItem(index) {
+        if(confirm('Are you sure you want to remove this item?')) {
+            cartItems.splice(index, 1);
+            updateCartDisplay();
+            updateCartTotals();
+            updateCartTitle();
+        }
+    }
+
+    function saveForLater(index) {
+        const item = cartItems[index];
+        alert(`"${item.name}" has been saved for later!`);
+        cartItems.splice(index, 1);
+        updateCartDisplay();
+        updateCartTotals();
+        updateCartTitle();
+    }
+
+    function updateCartDisplay() {
+        // This would normally re-render the cart items
+        // For this demo, we'll just update the visible elements
+        const cartItemElements = document.querySelectorAll('.cart-item');
+        cartItemElements.forEach((element, index) => {
+            if(index >= cartItems.length) {
+                element.style.display = 'none';
+            }
+        });
+    }
+
+    function updateCartTotals() {
+        const subtotal = calculateSubtotal();
+        const discount = 60.00; // Fixed discount for demo
+        const tax = 14.00; // Fixed tax for demo
+        const total = subtotal - discount + tax;
+
+        // Update display
+        document.querySelector('.summary-row:nth-child(1) span:last-child').textContent = `$${subtotal.toFixed(2)}`;
+        document.querySelector('.summary-row.total span:last-child').textContent = `$${total.toFixed(2)}`;
+    }
+
+    function updateCartTitle() {
+        const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+        document.querySelector('.cart-title').textContent = `My cart (${totalItems})`;
+    }
+
+    function calculateSubtotal() {
+        return cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    }
+
+    function calculateTotal() {
+        const subtotal = calculateSubtotal();
+        const discount = 60.00;
+        const tax = 14.00;
+        return subtotal - discount + tax;
+    }
+
+    function applyCoupon(code) {
+        // Simulate coupon validation
+        const validCoupons = {
+            'SAVE10': 10,
+            'WELCOME20': 20,
+            'FIRST50': 50
+        };
+
+        if(validCoupons[code.toUpperCase()]) {
+            const discountAmount = validCoupons[code.toUpperCase()];
+            alert(`Coupon applied! You saved $${discountAmount}`);
+            
+            // Update discount in display
+            const currentDiscount = parseFloat(document.querySelector('.summary-row.discount span:last-child').textContent.replace('- $', ''));
+            const newDiscount = currentDiscount + discountAmount;
+            document.querySelector('.summary-row.discount span:last-child').textContent = `- $${newDiscount.toFixed(2)}`;
+            
+            // Recalculate total
+            const subtotal = calculateSubtotal();
+            const tax = 14.00;
+            const total = subtotal - newDiscount + tax;
+            document.querySelector('.summary-row.total span:last-child').textContent = `$${total.toFixed(2)}`;
+            
+            couponInput.value = '';
+        } else {
+            alert('Invalid coupon code. Try: SAVE10, WELCOME20, or FIRST50');
+        }
+    }
+
+    function moveItemToCart(index) {
+        // Simulate moving saved item to cart
+        const savedItems = [
+            'GoPro HERO6 4K Action Camera - Black (Tablet)',
+            'GoPro HERO6 4K Action Camera - Black (Phone)',
+            'GoPro HERO6 4K Action Camera - Black (Watch)',
+            'GoPro HERO6 4K Action Camera - Black (Laptop)'
+        ];
+        
+        alert(`"${savedItems[index]}" has been moved to your cart!`);
+        
+        // Add visual feedback
+        const button = document.querySelectorAll('.move-to-cart')[index];
+        const originalText = button.textContent;
+        button.textContent = '✓ Added to cart';
+        button.style.background = '#28a745';
+        button.style.color = 'white';
+        button.style.border = '1px solid #28a745';
+        
+        setTimeout(() => {
+            button.textContent = originalText;
+            button.style.background = 'none';
+            button.style.color = '#007bff';
+            button.style.border = '1px solid #007bff';
+        }, 2000);
+    }
+
+    // Smooth scrolling for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if(target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Add hover effects for interactive elements
+    function addHoverEffects() {
+        const buttons = document.querySelectorAll('button, .nav-item');
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-1px)';
+                this.style.transition = 'transform 0.2s ease';
+            });
+            
+            button.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    }
+
+    // Initialize hover effects
+    addHoverEffects();
+
+    // Add loading state to checkout button
+    checkoutBtn.addEventListener('click', function() {
+        if(cartItems.length === 0) {
+            alert('Your cart is empty!');
+            return;
+        }
+        
+        // Add loading state
+        const originalText = this.textContent;
+        this.textContent = 'Processing...';
+        this.disabled = true;
+        
+        setTimeout(() => {
+            this.textContent = originalText;
+            this.disabled = false;
+            alert('Checkout completed successfully!');
+        }, 2000);
+    });
+
+    // Initialize page
+    updateCartTotals();
+    console.log('Cart page initialized successfully!');
+});</script>
+</body>
+</html>

@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link rel="stylesheet" href="pro-detail.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <a class="home" href="Home.html" ><div class="logo">
+                     <img src="assets/Layout/Brand/logo-colored.png" alt="Logo">
+                </div></a>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <select>
+                        <option>All category</option>
+                    </select>
+                    <button class="search-btn">Search</button>
+                </div>
+                
+                <div class="header-icons">
+                    <div class="icon-item">
+                        <i class="fas fa-user"></i>
+                        <span>Profile</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Message</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>Orders</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fas fa-shopping-cart"></i>
+                        <a class="cart" href="cart.html" target="main"><span>My cart</span></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header-nav">
+                <div class="nav-left">
+                    <div class="nav-item">
+                        <i class="fas fa-bars"></i>
+                        All category
+                    </div>
+                    <div class="nav-item">Hot offers</div>
+                    <div class="nav-item">Gift boxes</div>
+                    <div class="nav-item">Projects</div>
+                    <div class="nav-item">Menu item</div>
+                    <div class="nav-item">
+                        Help <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                
+                <div class="nav-right">
+                    <select class="language-select">
+                        <option>English, USD</option>
+                    </select>
+                    <div class="nav-item">Ship to <div class="flag"></div> <i class="fas fa-chevron-down"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#">Home</a> > 
+            <a href="#">Clothings</a> > 
+            <a href="#">Men's wear</a> > 
+            <span>Summer clothing</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="product-section">
+            <div class="product-images">
+                <div class="main-image">
+                    <img src="assets/Image/backgrounds/image 34.png" alt="Product" id="mainImage">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="assets/Image/backgrounds/Image (1).png" alt="Thumbnail" class="thumbnail active">
+                    <img src="assets/Image/backgrounds/Image (4).png" alt="Thumbnail" class="thumbnail">
+                    <img src="assets/Image/backgrounds/Image.png" alt="Thumbnail" class="thumbnail">
+                    <img src="assets/Image/backgrounds/Image (3).png" alt="Thumbnail" class="thumbnail">
+                    <img src="assets/Image/backgrounds/Image (2).png" alt="Thumbnail" class="thumbnail">
+                    <img src="assets/Image/backgrounds/Image (5).png" alt="Thumbnail" class="thumbnail">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="stock-status">✓ In stock</div>
+                <h1>Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+                
+                <div class="rating">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <span class="reviews">📝 32 reviews</span>
+                    <span class="sold">👍 154 sold</span>
+                </div>
+
+                <div class="pricing">
+                    <div class="price-item">
+                        <span class="price-red">$98.00</span>
+                        <span class="price-subtitle">50-100 pcs</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-gray">$90.00</span>
+                        <span class="price-subtitle">100-200 pcs</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-gray">$78.00</span>
+                        <span class="price-subtitle">200+ pcs</span>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <div class="detail-row">
+                        <span class="label">Price:</span>
+                        <span class="value">Negotiable</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Type:</span>
+                        <span class="value">Classic shoes</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Material:</span>
+                        <span class="value">Plastic material</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Design:</span>
+                        <span class="value">Modern nice</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Customization:</span>
+                        <span class="value">Customized logo and design custom packages</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Protection:</span>
+                        <span class="value">Refund Policy</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Warranty:</span>
+                        <span class="value">2 years full warranty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="supplier-info">
+                <div class="supplier-card">
+                    <div class="supplier-avatar">R</div>
+                    <div class="supplier-details">
+                        <div class="supplier-label">Supplier</div>
+                        <div class="supplier-name">Guanjoi Trading LLC</div>
+                    </div>
+                </div>
+                
+                <div class="supplier-badges">
+                    <div class="badge">🇩🇪 Germany, Berlin</div>
+                    <div class="badge">✓ Verified Seller</div>
+                    <div class="badge">
+                        <i class="fa-regular fa-globe" style="color: #ababab;"></i>
+                         Worldwide shipping</div>
+                </div>
+                
+                <button class="send-inquiry-btn">Send inquiry</button>
+                <a href="#" class="seller-profile">Seller's profile</a>
+                
+                <div class="save-later">
+                    <i class="far fa-heart"></i>
+                    <span>Save for later</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Tabs -->
+        <div class="product-tabs">
+         <div class="disc">
+            <div class="tab-headers">
+                <button class="tab-header active" data-tab="description">Description</button>
+                <button class="tab-header" data-tab="reviews">Reviews</button>
+                <button class="tab-header" data-tab="shipping">Shipping</button>
+                <button class="tab-header" data-tab="seller">About seller</button>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-panel active" id="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    
+                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    
+                    <div class="specifications">
+                        <div class="spec-row">
+                            <span class="spec-label">Model</span>
+                            <span class="spec-value">#9786967</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Style</span>
+                            <span class="spec-value">Classic style</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Certificate</span>
+                            <span class="spec-value">ISO-898921212</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Size</span>
+                            <span class="spec-value">34mm x 450mm x 19mm</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Memory</span>
+                            <span class="spec-value">36GB RAM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="features">
+                        <div class="feature">✓ Some great feature name here</div>
+                        <div class="feature">✓ Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="feature">✓ Duis aute irure dolor in reprehenderit</div>
+                        <div class="feature">✓ Some great feature name here</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+           <!-- You may like section -->
+           <div class="recommendations">
+            <h3>You may like</h3>
+            <div class="recommendation-grid">
+                <div class="recommendation-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/image 30.png" alt="Product">
+                    <div class="rec-info">
+                        <div class="rec-title">Men Blazers Sets Elegant Formal</div>
+                        <div class="rec-price">$7.00 - $99.50</div>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/Bitmap.png" alt="Product">
+                    <div class="rec-info">
+                        <div class="rec-title">Men Shirt Sleeve Polo Contrast</div>
+                        <div class="rec-price">$7.00 - $99.50</div>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/2 1.png" alt="Product">
+                    <div class="rec-info">
+                        <div class="rec-title">Apple Watch Series Space Gray</div>
+                        <div class="rec-price">$7.00 - $99.50</div>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/Bitmap (2).png" alt="Product">
+                    <div class="rec-info">
+                        <div class="rec-title">Basketball Crew Socks Long Stuff</div>
+                        <div class="rec-price">$7.00 - $99.50</div>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/image 26.png" alt="Product">
+                    <div class="rec-info">
+                        <div class="rec-title">New Summer Men's Castrol T-Shirts</div>
+                        <div class="rec-price">$7.00 - $99.50</div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+        <!-- Related products -->
+        <div class="related-products">
+            <h3>Related products</h3>
+            <div class="related-grid">
+                <div class="related-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/image 24.png" alt="Product">
+                    <div class="related-title">Xiaomi Redmi 8 Original</div>
+                    <div class="related-price">$32.00-$40.00</div>
+                </div>
+                <div class="related-item">
+                    <img src="assets/Image/tech/8.png" alt="Product">
+                    <div class="related-title">Xiaomi Redmi 8 Original</div>
+                    <div class="related-price">$32.00-$40.00</div>
+                </div>
+                <div class="related-item">
+                    <img src="assets/Layout/alibaba/Image/tech/image 86.png" alt="Product">
+                    <div class="related-title">Xiaomi Redmi 8 Original</div>
+                    <div class="related-price">$32.00-$40.00</div>
+                </div>
+                <div class="related-item">
+                    <img src="assets/Layout/alibaba/Image/cloth/Bitmap (2).png" alt="Product">
+                    <div class="related-title">Xiaomi Redmi 8 Original</div>
+                    <div class="related-price">$32.00-$40.00</div>
+                </div>
+                <div class="related-item">
+                    <img src="assets/Layout/alibaba/Image/tech/image 85.png" alt="Product">
+                    <div class="related-title">Xiaomi Redmi 8 Original</div>
+                    <div class="related-price">$32.00-$40.00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Discount Banner -->
+        <div class="discount-banner">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <h3>Super discount on more than 100 USD</h3>
+                    <p>Have you ever just write dummy info</p>
+                </div>
+               <a class="cart" href="cart.html" target="main"><button class="shop-now-btn">Shop now</button></a> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/Layout/Brand/logo-colored.png">
+                    </div>
+                    <p>Best information about the company gies here but now lorem ipsum is</p>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Partnership</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find store</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Money Refund</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>For users</h4>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">My Orders</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Get app</h4>
+                    <div class="app-badges">
+                        <img src="assets/Layout/Misc/market-button.png" alt="App Store">
+                        <img src="assets/Layout/Misc/Group.png" alt="Google Play">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2023 Ecommerce.</p>
+                <div class="footer-bottom-right">
+                    <img src="assets/Layout1/Image/flags/US@2x.png"> English <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>// Product Detail Page JavaScript
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeThumbnails();
+    initializeTabs();
+    initializeInteractions();
+});
+
+// Thumbnail image switching functionality
+function initializeThumbnails() {
+    const mainImage = document.getElementById('mainImage');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    
+    // Placeholder images for different views
+    const imageUrls = [
+        'https://via.placeholder.com/400x400/C0C0C0/FFFFFF?text=Polo+Shirt+Front',
+        'https://via.placeholder.com/400x400/E0E0E0/FFFFFF?text=Polo+Shirt+Back',
+        'https://via.placeholder.com/400x400/D0D0D0/FFFFFF?text=Polo+Shirt+Side',
+        'https://via.placeholder.com/400x400/B0B0B0/FFFFFF?text=Polo+Shirt+Detail',
+        'https://via.placeholder.com/400x400/A0A0A0/FFFFFF?text=Polo+Shirt+Fold',
+        'https://via.placeholder.com/400x400/909090/FFFFFF?text=Polo+Shirt+Tag'
+    ];
+    
+    thumbnails.forEach((thumbnail, index) => {
+        thumbnail.addEventListener('click', function() {
+            // Remove active class from all thumbnails
+            thumbnails.forEach(thumb => thumb.classList.remove('active'));
+            
+            // Add active class to clicked thumbnail
+            this.classList.add('active');
+            
+            // Change main image
+            if (imageUrls[index]) {
+                mainImage.src = imageUrls[index];
+            }
+            
+            // Add smooth transition effect
+            mainImage.style.opacity = '0.5';
+            setTimeout(() => {
+                mainImage.style.opacity = '1';
+            }, 150);
+        });
+        
+        // Add hover effect
+        thumbnail.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+            this.style.transition = 'transform 0.2s ease';
+        });
+        
+        thumbnail.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    });
+}
+
+// Tab switching functionality
+function initializeTabs() {
+    const tabHeaders = document.querySelectorAll('.tab-header');
+    const tabPanels = document.querySelectorAll('.tab-panel');
+    
+    tabHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const targetTab = this.getAttribute('data-tab');
+            
+            // Remove active class from all headers and panels
+            tabHeaders.forEach(h => h.classList.remove('active'));
+            tabPanels.forEach(p => p.classList.remove('active'));
+            
+            // Add active class to clicked header
+            this.classList.add('active');
+            
+            // Show corresponding panel
+            const targetPanel = document.getElementById(targetTab);
+            if (targetPanel) {
+                targetPanel.classList.add('active');
+            }
+            
+            // Add click animation
+            this.style.transform = 'translateY(1px)';
+            setTimeout(() => {
+                this.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    });
+}
+
+// Initialize various interactive elements
+function initializeInteractions() {
+    initializeButtons();
+    initializeHoverEffects();
+    initializeStarRating();
+    initializePriceHighlight();
+}
+
+// Button interactions
+function initializeButtons() {
+    const sendInquiryBtn = document.querySelector('.send-inquiry-btn');
+    const shopNowBtn = document.querySelector('.shop-now-btn');
+    const saveForLater = document.querySelector('.save-later');
+    
+    // Send Inquiry button
+    if (sendInquiryBtn) {
+        sendInquiryBtn.addEventListener('click', function() {
+            // Add loading animation
+            const originalText = this.textContent;
+            this.textContent = 'Sending...';
+            this.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                this.textContent = 'Inquiry Sent!';
+                this.style.background = '#28a745';
+                
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.style.background = '#4285f4';
+                    this.disabled = false;
+                }, 2000);
+            }, 1000);
+        });
+    }
+    
+    // Shop Now button
+    if (shopNowBtn) {
+        shopNowBtn.addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 100);
+            
+            // Add ripple effect
+            addRippleEffect(this);
+        });
+    }
+    
+    // Save for later
+    if (saveForLater) {
+        let isSaved = false;
+        saveForLater.addEventListener('click', function() {
+            const heart = this.querySelector('i');
+            const text = this.querySelector('span');
+            
+            if (!isSaved) {
+                heart.classList.remove('far');
+                heart.classList.add('fas');
+                heart.style.color = '#dc3545';
+                text.textContent = 'Saved!';
+                isSaved = true;
+            } else {
+                heart.classList.remove('fas');
+                heart.classList.add('far');
+                heart.style.color = '#4285f4';
+                text.textContent = 'Save for later';
+                isSaved = false;
+            }
+            
+            // Add bounce animation
+            this.style.transform = 'scale(1.1)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 200);
+        });
+    }
+}
+
+// Add hover effects to various elements
+function initializeHoverEffects() {
+    // Product cards hover
+    const productCards = document.querySelectorAll('.related-item, .recommendation-item');
+    productCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.transition = 'transform 0.3s ease';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+    
+    // Navigation items hover
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-1px)';
+            this.style.transition = 'transform 0.2s ease';
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+}
+
+// Interactive star rating
+function initializeStarRating() {
+    const stars = document.querySelectorAll('.star');
+    let currentRating = 4.5; // Default rating
+    
+    stars.forEach((star, index) => {
+        star.addEventListener('mouseenter', function() {
+            // Highlight stars up to current hover
+            stars.forEach((s, i) => {
+                if (i <= index) {
+                    s.style.color = '#ff9800';
+                    s.style.transform = 'scale(1.2)';
+                } else {
+                    s.style.color = '#ffc107';
+                    s.style.transform = 'scale(1)';
+                }
+            });
+        });
+        
+        star.addEventListener('mouseleave', function() {
+            // Reset to original rating
+            stars.forEach((s, i) => {
+                s.style.transform = 'scale(1)';
+                if (i < Math.floor(currentRating)) {
+                    s.style.color = '#ffc107';
+                } else if (i === Math.floor(currentRating) && currentRating % 1 >= 0.5) {
+                    s.style.color = '#ffc107';
+                } else {
+                    s.style.color = '#e0e0e0';
+                }
+            });
+        });
+        
+        star.addEventListener('click', function() {
+            currentRating = index + 1;
+            updateRatingDisplay();
+        });
+    });
+    
+    function updateRatingDisplay() {
+        stars.forEach((star, index) => {
+            if (index < currentRating) {
+                star.style.color = '#ffc107';
+            } else {
+                star.style.color = '#e0e0e0';
+            }
+        });
+        
+        // Update rating number
+        const ratingNumber = document.querySelector('.rating-number');
+        if (ratingNumber) {
+            ratingNumber.textContent = currentRating.toFixed(1);
+        }
+    }
+}
+
+// Price highlighting effect
+function initializePriceHighlight() {
+    const priceItems = document.querySelectorAll('.price-item');
+    
+    priceItems.forEach(item => {
+        item.addEventListener('click', function() {
+            // Remove highlight from all price items
+            priceItems.forEach(p => {
+                p.classList.remove('price-selected');
+                p.style.background = 'transparent';
+                p.style.borderRadius = '0';
+            });
+            
+            // Highlight selected price
+            this.style.background = '#e3f2fd';
+            this.style.borderRadius = '8px';
+            this.style.padding = '10px';
+            this.style.transition = 'all 0.3s ease';
+            this.classList.add('price-selected');
+        });
+    });
+}
+
+// Utility function to add ripple effect
+function addRippleEffect(element) {
+    const ripple = document.createElement('span');
+    const rect = element.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+    const x = rect.width / 2;
+    const y = rect.height / 2;
+    
+    ripple.style.width = ripple.style.height = size + 'px';
+    ripple.style.left = (x - size / 2) + 'px';
+    ripple.style.top = (y - size / 2) + 'px';
+    ripple.classList.add('ripple');
+    
+    // Add ripple styles
+    ripple.style.position = 'absolute';
+    ripple.style.borderRadius = '50%';
+    ripple.style.background = 'rgba(255, 255, 255, 0.6)';
+    ripple.style.transform = 'scale(0)';
+    ripple.style.animation = 'ripple 0.6s linear';
+    ripple.style.pointerEvents = 'none';
+    
+    element.style.position = 'relative';
+    element.style.overflow = 'hidden';
+    element.appendChild(ripple);
+    
+    setTimeout(() => {
+        ripple.remove();
+    }, 600);
+}
+
+// Add CSS for ripple animation
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes ripple {
+        to {
+            transform: scale(4);
+            opacity: 0;
+        }
+    }
+    
+    .price-item:hover {
+        cursor: pointer;
+        background: #f5f5f5 !important;
+        border-radius: 8px;
+        padding: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .main-image img {
+        transition: opacity 0.3s ease;
+    }
+    
+    .thumbnail {
+        transition: all 0.2s ease;
+    }
+    
+    .tab-header {
+        transition: all 0.2s ease;
+    }
+`;
+document.head.appendChild(style);
+
+// Search functionality
+function initializeSearch() {
+    const searchInput = document.querySelector('.search-bar input');
+    const searchBtn = document.querySelector('.search-btn');
+    
+    if (searchInput && searchBtn) {
+        searchBtn.addEventListener('click', function() {
+            const query = searchInput.value.trim();
+            if (query) {
+                console.log('Searching for:', query);
+                // Here you would typically make an API call to search
+                showSearchFeedback();
+            }
+        });
+        
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchBtn.click();
+            }
+        });
+    }
+}
+
+function showSearchFeedback() {
+    const searchBtn = document.querySelector('.search-btn');
+    const originalText = searchBtn.textContent;
+    
+    searchBtn.textContent = 'Searching...';
+    searchBtn.disabled = true;
+    
+    setTimeout(() => {
+        searchBtn.textContent = originalText;
+        searchBtn.disabled = false;
+    }, 1500);
+}
+
+// Initialize search on page load
+document.addEventListener('DOMContentLoaded', function() {
+    initializeSearch();
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Add loading animation for images
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('load', function() {
+        this.style.opacity = '0';
+        setTimeout(() => {
+            this.style.opacity = '1';
+            this.style.transition = 'opacity 0.3s ease';
+        }, 100);
+    });
+});
+
+// Mobile menu toggle (if needed)
+function initializeMobileMenu() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    }
+}
+
+// Lazy loading for images (performance optimization)
+function initializeLazyLoading() {
+    const images = document.querySelectorAll('img[data-src]');
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove('lazy');
+                imageObserver.unobserve(img);
+            }
+        });
+    });
+    
+    images.forEach(img => imageObserver.observe(img));
+}
+
+// Add to cart functionality (placeholder)
+function addToCart(productId) {
+    console.log('Adding product to cart:', productId);
+    
+    // Show feedback
+    const notification = document.createElement('div');
+    notification.textContent = 'Product added to cart!';
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #28a745;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 4px;
+        z-index: 1000;
+        animation: slideIn 0.3s ease;
+    `;
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+        notification.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => {
+            notification.remove();
+        }, 300);
+    }, 3000);
+}
+
+// Add slide animations for notifications
+const notificationStyles = document.createElement('style');
+notificationStyles.textContent = `
+    @keyframes slideIn {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    
+    @keyframes slideOut {
+        from { transform: translateX(0); opacity: 1; }
+        to { transform: translateX(100%); opacity: 0; }
+    }
+`;
+document.head.appendChild(notificationStyles);
+
+console.log('Product Detail Page JavaScript loaded successfully!');</script>
+</body>
+</html>
